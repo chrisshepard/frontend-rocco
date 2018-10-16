@@ -52,14 +52,54 @@ p {
     padding-top:1vh;
 }
 
-main {
-    padding-bottom:8vh;
+.main-index {
+    padding-bottom:13vh;
 }
 
 .menu {
     padding-top: 10px;
-    background-color:tan;
-    margin:0 10vw 0 10vw;
+
+   
  
 }
 
+.menu-row {
+    margin: 5vh 2vw 0 0;
+    
+    padding-bottom:5vh;
+  
+}
+
+.col-lg-5 {
+    background:darkred;
+    border-radius: 10px;
+    border:black 3px solid;
+    padding-bottom:10px;
+    margin-right:1vw;
+    margin-top:5vh;
+}
+
+.button-text {
+    font-size:14px;
+    color:white;
+    font-weight: bold;
+}
+
+.main-back {
+    
+}
+
+.card {
+    color:;
+    background:#796341;
+    border: white 2px solid;
+}
+
+.card-body {
+    background:tan;
+}
+
+.menu > h2 {
+    color:white;
+    text-decoration: underline;
+}
