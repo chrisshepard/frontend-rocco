@@ -1,11 +1,26 @@
 
+body {
+    background: tan ;
+}
+
 .pano{
     width:100vw;
+    
  
 }
 .nav-link {
     color:black;
-    text-decoration: underline;
+    text-decoration:none;
+    border:black 2px solid;
+    border-radius:8px;
+    margin:0 2px;
+    box-shadow: 2px 2px;
+}
+
+.nav-link:hover {
+    box-shadow:none;
+    text-decoration: none;
+    color:black;
 }
 
 .lgo {
@@ -16,7 +31,7 @@
 }
 
 .sign {
-    max-height:17vh;
+    width:30vw;
 }
 
 
@@ -45,7 +60,7 @@ p {
 
 .footer {
     background:#6C0000 ;
-    color:black;
+    color:tan;
     padding: 0 10vw 0 10vw;
     font-weight: bold;
     min-height: 6vh;
@@ -67,14 +82,43 @@ p {
 
 }
 
-
-
-
-table {
-    font-size: 14px;
+.btn {
+    text-decoration: none;
+    color:black;
 }
 
 
+
+
+.table {
+    font-size: 14px;
+    background:tan;
+    border: black solid 2px;
+}
+
+.card-body {
+   background:tan;
+}
+
+.card-header {
+    background:#7E572B;
+}
+
+.card-header:hover {
+    transform:scale(.99);
+
+    
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}
+
+.card {
+    background:black;
+}
 
 
 
