@@ -31,7 +31,7 @@ body {
 }
 
 .sign {
-    width:30vw;
+    height:15vh;
 }
 
 
@@ -41,6 +41,7 @@ body {
 margin-top:4vh;
 max-width:80vw;
 }
+
 
 h3 {
     font-size:3vh;
@@ -119,8 +120,6 @@ p {
 .card {
     background:black;
 }
-
-
 
 
 
